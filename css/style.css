@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    font-family: 'Arial';
+    box-sizing: border-box;
+  }
+body{
+    
+    margin: 0 auto;
+    padding: 0 auto;
+
+}
+header.header {
+    display: flex;
+    align-items: center;
+}
+header.header img {
+    width: 150px;
+    }
+
+section.top-page{
+    background-image: url("../Future-Leader/Desktop.png");
+  background-size: cover;
+    height: 150vh;
+    padding: 10px;
+}
+/*landing page*/
+.landing-page{
+  padding: 75px 40px;
+
+}
+.big-title{
+  color: #6AD2E1;
+  font-size: 55px;
+  font-family: 'Abril Fatface';
+  font-weight: 150;
+}
+.text{
+    color: white;
+ font-size: 25px;
+ padding: 0px 0px;
+ margin: 40px 0px;
+ font-family: 'Abril Fatface';
+}
+.scroll-down{
+    color: white;
+    padding: 40px 0px;
+    font-family: 'Abril Fatface';
+    font-size: 18px;
+    position: absolute;
+    bottom: -100px;
+}
+/*menu de navigation*/
+nav.nav{
+display: flex;
+justify-content: space-between;
+list-style: none;
+width: 520px;
+margin-left: 615px;
+font-size:  1.5em;
+}
+nav.nav li{
+    color: #263644;
+}
+/*2 em menu de navigation*/
+section.nav-bar{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 1vm 8vw;
+box-shadow: 2px 2px 10px rgba(0,0, 0, 0.15);
+}
+nav .navigation ul{
+display: flex;
+justify-content: flex-end;
+}
+nav .navigation ul li{
+list-style: none;
+margin-left: 90px;
+  }
+nav .navigation ul li a{
+text-decoration: none;
+color:#263644;
+font-size:  1.5em;
+font-weight: 500;
+      }
+nav .navigation ul li a:hover{
+color: #6AD2E1;
+transition: 0.3s ease;
+}
+
+/* detail about*/
+.detail{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 50px;
+  align-items:flex-end;
+  }
+  .course-icons{
+color: #6AD2E1;
+font-size: 30px;
+  }
+  .course-item {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+
+  }
+.text-detail {
+font-weight: 200px;
+width: 100px;
+text-align: center;
+  }
+
