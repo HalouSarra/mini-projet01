@@ -21,7 +21,7 @@ section.top-page{
     background-image: url("../Future-Leader/Desktop.png");
   background-size: cover;
     height: 150vh;
-    padding: 10px;
+    padding: 0px;
 }
 /*landing page*/
 .landing-page{
@@ -183,6 +183,78 @@ font-size: 2em ;
   border-radius: 11px;
   box-shadow: 0 20px 40px 0 #263644; 
 }
+
+.course-inner #Temoignage .box-container {
+
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+width: 100%;
+
+}
+.course-inner #Temoignage .box {
+  width: 800px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 16px;
+  margin: 15px;
+  cursor: pointer;
+}
+.course-inner #Temoignage .box-container .box .box-top .profile .profile-img{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+overflow: hidden;
+margin-right: 10px;
+
+}
+
+.course-inner #Temoignage .box-container .box .box-top .profile .profile-img img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: center;
+
+}
+.course-inner #Temoignage .box-container .box .box-top .profile{
+display: flex;
+align-items: center;
+}
+
+.course-inner #Temoignage .box-container .box .box-top .profile .profile-img .name-user{
+display: flex;
+flex-direction: column;
+
+}
+.course-inner #Temoignage .box-container .box .box-top .profile .profile-img .name-user strong{
+  color: #263644;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+.course-inner #Temoignage .box-container .box .box-top .profile .profile-img .name-user span{
+  color: #6AD2E1;
+  font-size: 0.8rem;
+}
+
+.course-inner #Temoignage .box-container .box .box-top .profile .reviews {
+color: #fdc93b;
+}
+.course-inner #Temoignage .box-container .box .box-top {
+  display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 20px;
+}
+
+.course-inner #Temoignage .box-container .box .communt p{
+  font-size: 0.9rem;
+color: #263644;
+
+
+
+}
+
 .course-inner .detail h2{
   padding-bottom: 10px;
 }
@@ -196,7 +268,7 @@ font-size: 2em ;
 .course-inner .detail p i{
   color: #6AD2E1;
   font-weight: 500%;
-  margin-right: 18px;
+  margin-right: 50px;
   width: 16px;
   height: 16px;
   line-height: 16px;
